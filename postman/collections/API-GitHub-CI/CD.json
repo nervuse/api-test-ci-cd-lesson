@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "Create user",
+			"name": "Create a new user",
 			"event": [
 				{
 					"listen": "test",
