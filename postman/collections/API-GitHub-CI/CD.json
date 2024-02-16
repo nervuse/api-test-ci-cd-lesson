@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "d4cf22bd-900d-495d-aaae-32074bfa52ac",
+		"_postman_id": "96bd65e4-d5ca-48aa-aeb1-b74f64b6c5d1",
 		"name": "API-GitHub-CI/CD",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "26126335-d4cf22bd-900d-495d-aaae-32074bfa52ac"
+		"_uid": "26126335-96bd65e4-d5ca-48aa-aeb1-b74f64b6c5d1"
 	},
 	"item": [
 		{
@@ -12,7 +12,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "cbba0c9e-999c-41dd-b7e9-f19108aaa9c3",
+						"id": "8d437c08-d257-4ae1-83cf-01a48344ee29",
 						"exec": [
 							"pm.test(\"Status code is 201\", function () {",
 							"    pm.response.to.have.status(201);",
@@ -26,7 +26,7 @@
 					}
 				}
 			],
-			"id": "d70f027e-31ca-468e-b57f-1ba748496278",
+			"id": "645be411-fc19-4485-9751-819eba669b9e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -60,7 +60,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "4348d84c-3f9f-4353-8f13-cd4cc8acdddd",
+						"id": "4b138b03-2cbb-4a0a-8698-2bc51aa3fd62",
 						"exec": [
 							"pm.test(\"Status code is 409\", function () {",
 							"    pm.response.to.have.status(409);",
@@ -74,7 +74,7 @@
 					}
 				}
 			],
-			"id": "8360368a-92c1-4638-8d60-b7cc37dc0459",
+			"id": "684b3598-b365-47c9-9e3f-821fb9d3f6a0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
